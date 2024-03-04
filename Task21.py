@@ -38,7 +38,7 @@ class LoginPage:
 
     def sourceCode(self):
         return self.driver.page_source
-    
+    # This is used for get cookies for the website
     def getCookies(self):
         return self.driver.get_cookies()
 
